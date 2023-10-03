@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  width: 560px;
+  height: 560px;
+  grid-template-columns: repeat(8, 70px);
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid-item.black {
+  background-color: black;
+}
+
+.grid-item.red {
+  background-color: red;
+}
